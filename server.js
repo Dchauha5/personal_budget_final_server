@@ -8,7 +8,7 @@ const UserSchema = require("./models/UserSchema");
 const bodyParser = require('body-parser');
 
 const port = 8080;
-let url = 'mongodb://localhost:27017/personalBudget';
+let url = 'mongodb+srv://project:P9YyQTwztzEaYPdT@finalproject.zxfkr.mongodb.net/personalBudget?retryWrites=true&w=majority';
 
 const app = express();
 app.use('/', express.static('public'));
