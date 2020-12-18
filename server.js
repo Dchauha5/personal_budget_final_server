@@ -7,7 +7,7 @@ const UserSchema = require("./models/UserSchema");
 
 const bodyParser = require('body-parser');
 
-const port = 3000;
+const port = 8080;
 let url = 'mongodb://localhost:27017/personalBudget';
 
 const app = express();
